@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A9E45CF17409080001AA70F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9E45CE17409080001AA70F /* UIKit.framework */; };
+		0A9E45D117409080001AA70F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9E45D017409080001AA70F /* Foundation.framework */; };
+		0A9E45D317409080001AA70F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9E45D217409080001AA70F /* CoreGraphics.framework */; };
+		0A9E45D917409080001AA70F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A9E45D717409080001AA70F /* InfoPlist.strings */; };
+		0A9E45DB17409080001AA70F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9E45DA17409080001AA70F /* main.m */; };
+		0A9E45DF17409080001AA70F /* TBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9E45DE17409080001AA70F /* TBAppDelegate.m */; };
+		0A9E45E117409080001AA70F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9E45E017409080001AA70F /* Default.png */; };
+		0A9E45E317409080001AA70F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9E45E217409080001AA70F /* Default@2x.png */; };
+		0A9E45E517409080001AA70F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9E45E417409080001AA70F /* Default-568h@2x.png */; };
+		0A9E45E817409080001AA70F /* TBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9E45E717409080001AA70F /* TBViewController.m */; };
+		0A9E45EB17409080001AA70F /* TBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A9E45E917409080001AA70F /* TBViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A9E45CB17409080001AA70F /* baiduTieba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baiduTieba.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9E45CE17409080001AA70F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0A9E45D017409080001AA70F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A9E45D217409080001AA70F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0A9E45D617409080001AA70F /* baiduTieba-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "baiduTieba-Info.plist"; sourceTree = "<group>"; };
+		0A9E45D817409080001AA70F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A9E45DA17409080001AA70F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A9E45DC17409080001AA70F /* baiduTieba-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "baiduTieba-Prefix.pch"; sourceTree = "<group>"; };
+		0A9E45DD17409080001AA70F /* TBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBAppDelegate.h; sourceTree = "<group>"; };
+		0A9E45DE17409080001AA70F /* TBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBAppDelegate.m; sourceTree = "<group>"; };
+		0A9E45E017409080001AA70F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0A9E45E217409080001AA70F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0A9E45E417409080001AA70F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0A9E45E617409080001AA70F /* TBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBViewController.h; sourceTree = "<group>"; };
+		0A9E45E717409080001AA70F /* TBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBViewController.m; sourceTree = "<group>"; };
+		0A9E45EA17409080001AA70F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TBViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A9E45C817409080001AA70F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9E45CF17409080001AA70F /* UIKit.framework in Frameworks */,
+				0A9E45D117409080001AA70F /* Foundation.framework in Frameworks */,
+				0A9E45D317409080001AA70F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A9E45C217409080001AA70F = {
+			isa = PBXGroup;
+			children = (
+				0A9E45D417409080001AA70F /* baiduTieba */,
+				0A9E45CD17409080001AA70F /* Frameworks */,
+				0A9E45CC17409080001AA70F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A9E45CC17409080001AA70F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A9E45CB17409080001AA70F /* baiduTieba.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A9E45CD17409080001AA70F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A9E45CE17409080001AA70F /* UIKit.framework */,
+				0A9E45D017409080001AA70F /* Foundation.framework */,
+				0A9E45D217409080001AA70F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A9E45D417409080001AA70F /* baiduTieba */ = {
+			isa = PBXGroup;
+			children = (
+				0A9E45DD17409080001AA70F /* TBAppDelegate.h */,
+				0A9E45DE17409080001AA70F /* TBAppDelegate.m */,
+				0A9E45E617409080001AA70F /* TBViewController.h */,
+				0A9E45E717409080001AA70F /* TBViewController.m */,
+				0A9E45E917409080001AA70F /* TBViewController.xib */,
+				0A9E45D517409080001AA70F /* Supporting Files */,
+			);
+			path = baiduTieba;
+			sourceTree = "<group>";
+		};
+		0A9E45D517409080001AA70F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A9E45D617409080001AA70F /* baiduTieba-Info.plist */,
+				0A9E45D717409080001AA70F /* InfoPlist.strings */,
+				0A9E45DA17409080001AA70F /* main.m */,
+				0A9E45DC17409080001AA70F /* baiduTieba-Prefix.pch */,
+				0A9E45E017409080001AA70F /* Default.png */,
+				0A9E45E217409080001AA70F /* Default@2x.png */,
+				0A9E45E417409080001AA70F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A9E45CA17409080001AA70F /* baiduTieba */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A9E45EE17409080001AA70F /* Build configuration list for PBXNativeTarget "baiduTieba" */;
+			buildPhases = (
+				0A9E45C717409080001AA70F /* Sources */,
+				0A9E45C817409080001AA70F /* Frameworks */,
+				0A9E45C917409080001AA70F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = baiduTieba;
+			productName = baiduTieba;
+			productReference = 0A9E45CB17409080001AA70F /* baiduTieba.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A9E45C317409080001AA70F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TB;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Kevin;
+			};
+			buildConfigurationList = 0A9E45C617409080001AA70F /* Build configuration list for PBXProject "baiduTieba" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A9E45C217409080001AA70F;
+			productRefGroup = 0A9E45CC17409080001AA70F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A9E45CA17409080001AA70F /* baiduTieba */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A9E45C917409080001AA70F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9E45D917409080001AA70F /* InfoPlist.strings in Resources */,
+				0A9E45E117409080001AA70F /* Default.png in Resources */,
+				0A9E45E317409080001AA70F /* Default@2x.png in Resources */,
+				0A9E45E517409080001AA70F /* Default-568h@2x.png in Resources */,
+				0A9E45EB17409080001AA70F /* TBViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A9E45C717409080001AA70F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9E45DB17409080001AA70F /* main.m in Sources */,
+				0A9E45DF17409080001AA70F /* TBAppDelegate.m in Sources */,
+				0A9E45E817409080001AA70F /* TBViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A9E45D717409080001AA70F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A9E45D817409080001AA70F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0A9E45E917409080001AA70F /* TBViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A9E45EA17409080001AA70F /* en */,
+			);
+			name = TBViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A9E45EC17409080001AA70F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A9E45ED17409080001AA70F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A9E45EF17409080001AA70F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "baiduTieba/baiduTieba-Prefix.pch";
+				INFOPLIST_FILE = "baiduTieba/baiduTieba-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A9E45F017409080001AA70F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "baiduTieba/baiduTieba-Prefix.pch";
+				INFOPLIST_FILE = "baiduTieba/baiduTieba-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A9E45C617409080001AA70F /* Build configuration list for PBXProject "baiduTieba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9E45EC17409080001AA70F /* Debug */,
+				0A9E45ED17409080001AA70F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A9E45EE17409080001AA70F /* Build configuration list for PBXNativeTarget "baiduTieba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9E45EF17409080001AA70F /* Debug */,
+				0A9E45F017409080001AA70F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A9E45C317409080001AA70F /* Project object */;
+}
