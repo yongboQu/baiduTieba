@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@class TBViewController;
+@class TBMainViewController;
 
 @interface TBAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) TBViewController *viewController;
+@property (strong, nonatomic) TBMainViewController *viewController;
 
 @end

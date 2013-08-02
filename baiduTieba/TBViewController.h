@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TTUITableViewZoomController.h"
 
-@interface TBViewController : UIViewController
+@interface TBViewController : TTUITableViewZoomController
+{
+
+}
+
+
 
 @end

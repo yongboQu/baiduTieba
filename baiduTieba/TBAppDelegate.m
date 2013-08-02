@@ -8,7 +8,7 @@
 
 #import "TBAppDelegate.h"
 
-#import "TBViewController.h"
+#import "TBMainViewController.h"
 
 @implementation TBAppDelegate
 
@@ -16,8 +16,16 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[TBViewController alloc] initWithNibName:@"TBViewController" bundle:nil];
+    self.viewController = [[TBMainViewController alloc] initWithNibName:@"TBMainViewController" bundle:nil];
+    
     self.window.rootViewController = self.viewController;
+    
+    UIView *abcView = [[UIView alloc]initWithFrame:CGRectMake(10, 10, 100, 100)];
+    abcView.backgroundColor = [UIColor blackColor];
+//    [self.window addSubview:self.viewController.view];
+//    [self.viewController.view addSubview:abcView];
+//    [self.window addSubview:abcView];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
