@@ -28,6 +28,8 @@
     
     [self.window makeKeyAndVisible];
     //zhu lin
+    //zl
+    //2013.08.03
     return YES;
 }
 
