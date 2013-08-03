@@ -26,6 +26,8 @@
 //    [self.viewController.view addSubview:abcView];
 //    [self.window addSubview:abcView];
     
+    // zhao yingru
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
