@@ -27,6 +27,7 @@
 //    [self.window addSubview:abcView];
     
     [self.window makeKeyAndVisible];
+    //zhu lin
     return YES;
 }
 
